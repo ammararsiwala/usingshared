@@ -1,0 +1,5 @@
+name: Main Workflow
+on: [push]
+jobs:
+  call-reusable-workflow:
+    uses: ammararsiwala/sharedrepo/.github/workflow/shared.yml
