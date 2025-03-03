@@ -1,0 +1,8 @@
+name: Resuable Workflow
+on: [workflow_call]
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name : Print Hello World
+        run : echo "Hello World!"
