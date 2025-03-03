@@ -1,0 +1,5 @@
+name: Main Workflow
+on: [push]
+jobs:
+  call-reusable-workflow:
+    uses: owner/repo-x/.github/workflows/reusable-workflow.yml@main
